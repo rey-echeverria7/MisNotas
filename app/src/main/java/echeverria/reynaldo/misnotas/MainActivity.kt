@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun ubicacion():File{
-        val folder = File(Environment.getExternalStorageDirectory(),"")
+        val folder = File(Environment.getExternalStorageDirectory(),"notas")
         if(!folder.exists()){
             folder.mkdir()
         }

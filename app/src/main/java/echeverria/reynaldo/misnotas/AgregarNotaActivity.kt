@@ -1,16 +1,15 @@
 package echeverria.reynaldo.misnotas
 
 import android.content.pm.PackageManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_agregar_nota.*
 import java.io.File
 import java.io.FileOutputStream
-import java.util.jar.Manifest
 
 
 class AgregarNotaActivity : AppCompatActivity() {
